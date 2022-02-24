@@ -4,6 +4,7 @@ function index(req, res) {
   skilldDb.find({}, function (error, skills) {
     res.render('skills/index', {
       skills: skills,
+      time: req.time,
       error: error
     })
   })
@@ -19,7 +20,19 @@ function show(req, res) {
   })
 }
 
+function newSkill(req, res) {
+  res.render('skills/new')
+}
+
+function create(req, res) {
+  skilldDb.create(req.body, function(error, skill) {
+    res.redirect('/skills')
+  })
+}
+
 export {
     index,
-    show
+    show, 
+    newSkill as new,
+    create
 }
