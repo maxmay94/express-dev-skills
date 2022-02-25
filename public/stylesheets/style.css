@@ -1,11 +1,22 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: rgb(209, 158, 39);
+  background-color: rgb(55, 72, 81);
+  color: rgb(190, 174, 174);
+}
+
+h1 {
+  color: rgb(233, 120, 7);
 }
 
 a {
-  color: #364bad;
+  color: #8bad36;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #a0cd2c;
 }
 
 .delete-form {
@@ -14,10 +25,18 @@ a {
 }
 	
 .delete-form button {
-  color: red;
-  background-color: rgb(230, 255, 247);
+  color: rgb(168, 76, 76);
+  background-color: rgb(210, 208, 63);
 }
-	
+
 li {
   list-style: none;
+  border: 1px solid #364bad;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgba(195, 124, 25, 0.622);
+}
+
+li:hover {
+  transform: scale(1.1);
 }

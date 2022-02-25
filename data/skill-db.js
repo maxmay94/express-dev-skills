@@ -1,6 +1,6 @@
 const skills = [
-  {text: 'computer hacking', hasSkill: true, _id: 6942069},
-  {text: 'nunchuck skills', hasSkill: false, _id: 6666666},
+  {text: 'computer hacking', hasSkill: false, _id: 6942069},
+  {text: 'nunchuck skills', hasSkill: true, _id: 6666666},
   {text: 'drawing realistic ligers', hasSkill: true, _id: 1234567},
   {text: 'typing', hasSkill: true, _id: 1233214},
   {text: 'editing', hasSkill: false, _id: 9874321},
